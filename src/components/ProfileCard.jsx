@@ -1,6 +1,6 @@
 import Card from './Card';
 import { useState } from 'react';
-import categories from '../../categories.json';
+import categories from '/categories.json';
 
 export default function ProfileCard({ name, profilePicture }) {
   const [timeframe, setTimeframe] = useState(0); //0 = daily , 1 = weekly , 2 = monthly timeframe
